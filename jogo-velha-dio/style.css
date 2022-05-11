@@ -1,0 +1,34 @@
+/*colors:
+Turquesa: 00CED1
+Marinho: #0a0d2d
+*/
+body{
+    text-align: center;
+    background-color: #0a0d2d;
+    color: #00CED1;
+}
+.quadrado{
+    text-align: center;
+    width: 50px;
+    background:#0a0d2d;
+    display: inline-block;
+    padding: 40px;
+    margin: 5px;
+    font-size: 60px;
+    cursor: pointer;
+    color: #0a0d2d;
+    border: 2px solid #00CED1;
+}
+.jogador, .vencedor {
+    font-size: 30px;
+    margin-top: 10px;
+}
+button{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: #00CED1;
+    color: #0a0d2d;
+    cursor: pointer;
+    border: 0;
+}
